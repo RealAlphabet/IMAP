@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Expect
+!.gitignore
+!*.c
+!*.h
+!*.a
+
+# Expect Makefile
+!Makefile
+
+# In subdirectories
+!*/
