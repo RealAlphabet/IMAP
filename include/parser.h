@@ -1,5 +1,4 @@
 #pragma once
-
 #include <stdint.h>
 
 typedef struct mailbox_t mailbox_t;
@@ -16,6 +15,7 @@ struct buffer_t
 {
     char *buf;
     uint64_t pos;
+    uint64_t len;
 };
 
 uint8_t parse_mailbox_line(buffer_t *buf, mailbox_t *box);
